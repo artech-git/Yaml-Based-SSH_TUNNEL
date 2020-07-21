@@ -91,6 +91,9 @@ class SSHProxyControler:
   def stop(self):
     self.stop_thread = True
 
+ 
+#... to work from here onwards ...
+    
 # def test(host, username, password, port):
 #   controlssh = SSHProxyControler(host, username, password, port)
 #   sshstatus, host, port = controlssh.start()
